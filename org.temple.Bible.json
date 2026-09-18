@@ -75,8 +75,8 @@
           "sources" : [
               {
                   "type" : "git",
-                  "tag": "v0.1.4",
-                  "commit" : "4cd462717172eedf7476b1c9b38082ae67ca9c8a",
+                  "tag": "v0.1.5",
+                  "commit" : "8eaf5659bcc612f3139e2e39af69ca9a40f4902e",
                   "url" : "https://gitlab.com/teofanesp12/Bible.git"
               }
           ]
