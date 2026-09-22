@@ -1,7 +1,7 @@
 {
   "id" : "org.temple.Bible",
   "runtime" : "org.gnome.Platform",
-  "runtime-version" : "50",
+  "runtime-version" : "51",
   "sdk" : "org.gnome.Sdk",
   "command" : "bible",
   "finish-args" : [
@@ -75,8 +75,8 @@
           "sources" : [
               {
                   "type" : "git",
-                  "tag": "v0.1.5",
-                  "commit" : "8eaf5659bcc612f3139e2e39af69ca9a40f4902e",
+                  "tag": "v0.1.6",
+                  "commit" : "6f0f560d8f08abfa5a794f39894146700fe34a1d",
                   "url" : "https://gitlab.com/teofanesp12/Bible.git"
               }
           ]
