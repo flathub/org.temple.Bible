@@ -4,6 +4,15 @@
   "runtime-version" : "51",
   "sdk" : "org.gnome.Sdk",
   "command" : "bible",
+  "add-extensions": {
+    "org.temple.Bible.Plugin": {
+      "directory": "lib/bible/plugins",
+      "version": "1",
+      "subdirectories": true,
+      "no-autodownload": true,
+      "autodelete": true
+    }
+  },
   "finish-args" : [
       "--share=network",
       "--share=ipc",
@@ -88,14 +97,35 @@
         ]
       },
       {
+        "name": "libpeas",
+        "builddir": true,
+        "buildsystem": "meson",
+        "config-opts": [
+          "-Dvapi=false",
+          "-Dintrospection=false",
+          "-Dgtk_doc=false",
+          "-Dpython3=false",
+          "-Dlua51=false",
+          "-Dgjs=false"
+        ],
+        "sources": [
+          {
+            "type": "git",
+            "tag": "2.2.1",
+            "commit" : "744430715e619069b3fcb6c994f2c09257700d05",
+            "url": "https://gitlab.gnome.org/GNOME/libpeas.git"
+          }
+        ]
+      },
+      {
           "name" : "Bible",
           "builddir" : true,
           "buildsystem" : "meson",
           "sources" : [
               {
                   "type" : "git",
-                  "tag": "v0.1.13",
-                  "commit" : "bcad209f563034afd96f2372c41ad07005e9b79f",
+                  "tag": "v0.1.14",
+                  "commit" : "80dcea5c0b59f0db9198a39905a236b10c4733a3",
                   "url" : "https://gitlab.com/teofanesp12/Bible.git"
               }
           ]
