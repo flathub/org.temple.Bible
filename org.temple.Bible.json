@@ -118,14 +118,35 @@
         ]
       },
       {
+          "name": "3d-temple-mount",
+          "buildsystem": "simple",
+          "build-commands": [
+            "sed -i 's/node --check/true/g' build.sh",
+            "chmod +x build.sh",
+            "./build.sh",
+            "install -Dm644 index.html /app/share/bible/plugins/navigating-3d/index.html"
+          ],
+          "sources": [
+            {
+              "type": "git",
+              "url": "https://github.com/openbibleinfo/3D-Temple-Mount.git",
+              "commit" : "f5f35410a57bb579d36fe11fa04e0e15b1ffa642",
+              "branch": "main"
+            }
+          ]
+      },
+      {
           "name" : "Bible",
           "builddir" : true,
           "buildsystem" : "meson",
+          "post-install": [
+            "mkdir -p /app/lib/bible/plugins"
+          ],
           "sources" : [
               {
                   "type" : "git",
-                  "tag": "v0.1.14",
-                  "commit" : "80dcea5c0b59f0db9198a39905a236b10c4733a3",
+                  "tag": "v0.1.15",
+                  "commit" : "6ab3503cd9ce49111b6a0db32fdfd19aef2c9bc6",
                   "url" : "https://gitlab.com/teofanesp12/Bible.git"
               }
           ]
