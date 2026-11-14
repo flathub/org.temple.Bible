@@ -130,8 +130,7 @@
             {
               "type": "git",
               "url": "https://github.com/openbibleinfo/3D-Temple-Mount.git",
-              "commit" : "f5f35410a57bb579d36fe11fa04e0e15b1ffa642",
-              "branch": "main"
+              "commit" : "f5f35410a57bb579d36fe11fa04e0e15b1ffa642"
             }
           ]
       },
