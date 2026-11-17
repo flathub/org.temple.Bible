@@ -130,8 +130,7 @@
             {
               "type": "git",
               "url": "https://github.com/openbibleinfo/3D-Temple-Mount.git",
-              "commit" : "f5f35410a57bb579d36fe11fa04e0e15b1ffa642",
-              "branch": "main"
+              "commit" : "f5f35410a57bb579d36fe11fa04e0e15b1ffa642"
             }
           ]
       },
@@ -145,8 +144,8 @@
           "sources" : [
               {
                   "type" : "git",
-                  "tag": "v0.1.15",
-                  "commit" : "6ab3503cd9ce49111b6a0db32fdfd19aef2c9bc6",
+                  "tag": "v0.1.16",
+                  "commit" : "5cad9d7c9ab0175a41cf13077c69a8aa40fd092d",
                   "url" : "https://gitlab.com/teofanesp12/Bible.git"
               }
           ]
