@@ -59,8 +59,8 @@
         "sources": [
           {
             "type": "git",
-            "tag": "0.1.3",
-            "commit":"e22ed88057c8ef00ed6649c6b2debd582b9e4a34",
+            "tag": "0.1.4",
+            "commit":"5c715bc3bd3e138cf36e929e69bcf1b50ea03720",
             "url": "https://gitlab.gnome.org/teofanesp12/libgorm.git"
           }
         ]
@@ -144,8 +144,8 @@
           "sources" : [
               {
                   "type" : "git",
-                  "tag": "v0.1.18",
-                  "commit" : "2a38792ede8c44762823c8525ea88cb0505c62db",
+                  "tag": "v0.1.19",
+                  "commit" : "6d1d834b6989a232272b9fcce7d5dde346f62519",
                   "url" : "https://gitlab.com/teofanesp12/Bible.git"
               }
           ]
